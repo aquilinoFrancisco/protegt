@@ -1,6 +1,6 @@
 <html>
 <head>
-  <title>Efi inf</title>
+  <title>Grupo ProTG</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
   * {
@@ -38,8 +38,8 @@ header("HTTP/1.1 200 OK");
 $data = json_decode(json_encode($sql->fetchAll()),true);
 	if($data){
 		for ($i=0; $i<count($data); $i++){
-			$comentarioNombre = $data[$i]["alumno"];
-			echo "<tr><td>".$data[$i]['comentario']."</td></tr> \n";
+			$alumnoNombre = $data[$i]["alumno"];
+			echo "<tr><td>".$data[$i]['alumno']."</td></tr> \n";
 			} 
 	}else{
 		echo "no hay Alumnos";
