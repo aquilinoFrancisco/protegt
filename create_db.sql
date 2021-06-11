@@ -13,7 +13,7 @@ create table alumnos(
 );
 
 
-INSERT INTO comentarios (comentario, fecha_creacion,videoID)
+INSERT INTO alumnos (alumno, fecha_creacion,videoID)
 VALUES ('Aquilino', '2021-06-11',1);
 
 grant select, insert, update, delete
