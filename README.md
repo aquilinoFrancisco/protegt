@@ -1,1 +1,2 @@
-Aplicación que gestiona alumnos, acciones realizar, ver, elimnar, agregar alumnos.
+Aplicación que gestiona alumnos.
+Ver, elimnar y agregar alumnos.
