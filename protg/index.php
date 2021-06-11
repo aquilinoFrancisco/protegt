@@ -21,7 +21,7 @@
 					$alumnoID = $data[$i]["alumnoID"];
 					$alumnoNombre = $data[$i]["alumno"];
 					echo "<tr><td><a href='alumnos.php?id=$alumnoID&alumno=$alumnoNombre'>"
-					.$data[$i]["video"]."</a></td></tr> \n"; 
+					.$data[$i]["alumno"]."</a></td></tr> \n"; 
 				}
 			}else{
 				echo "no hay alumnos";
