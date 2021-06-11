@@ -15,7 +15,7 @@
 			include "config.php";
 			include "utils.php";
 
-			$data = json_decode(file_get_contents("http://localhost/rest/post.php"),true);
+			$data = json_decode(file_get_contents("http://localhost/rest/servicios_alumnos.php"),true);
 			if($data){
 				for ($i=0; $i<count($data); $i++){
 					$alumnoID = $data[$i]["alumnoID"];
