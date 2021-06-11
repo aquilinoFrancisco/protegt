@@ -9,7 +9,6 @@
   .row {
     display: flex;
   }
-  /* Crea dos columnsas, una al lado de la otras */
   .column {
     flex: 100%;
   }
